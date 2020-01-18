@@ -81,5 +81,5 @@ test:
 production:
   <<: *default
   database: pokerails_production
-  username: pokerails
+  # username: pokerails
   password: <%= ENV['POKERAILS_DATABASE_PASSWORD'] %>
