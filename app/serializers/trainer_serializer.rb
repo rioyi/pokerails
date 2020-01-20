@@ -1,3 +1,3 @@
 class TrainerSerializer < ActiveModel::Serializer
-  attributes :id, :name
+  attributes :id, :name, :pokemons
 end

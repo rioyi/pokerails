@@ -4,4 +4,6 @@ Rails.application.routes.draw do
 
   #trainer
   get 'trainers', action: :index, controller: 'trainers'
+  # Pokemon
+  get 'pokemons', to: 'pokemons#index'
 end
