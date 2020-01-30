@@ -6,4 +6,5 @@ Rails.application.routes.draw do
   get 'trainers', action: :index, controller: 'trainers'
   # Pokemon
   get 'pokemons', to: 'pokemons#index'
+  get 'pokemons/:id', to: 'pokemons#show', as: 'pokemon'
 end
